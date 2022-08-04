@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Create new entry
+{% endblock %}
+
+{% block body %}
+    <form action="/new/" method="post">
+        <div class="flex-container">
+            <input type="text" class="title-input" autofocus placeholder="Title" name="title">
+            <textarea name="newtext" class="UserInput" placeholder="Your Markdown text"></textarea>
+            {% csrf_token %}
+            <input class="submit-btn" type="submit" value="Submit">
+        </div>
+    </form>
+
+{% endblock %}
+

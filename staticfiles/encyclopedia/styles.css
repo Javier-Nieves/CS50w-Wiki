@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: #FFFFF0;
+}
+
+code {
+    white-space: pre;
+}
+
+a {
+    color: rgb(23, 53, 4);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(245, 2, 123);
+  }
+h1 {
+    padding-bottom: 30px;
+}
+h4 {
+    margin-bottom: 20px;
+}
+.h1index {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+li {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.content {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.edit-btn {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(118, 116, 117);
+    color: white;
+}
+.submit-btn {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(118, 116, 117);
+    color: white;
+}
+.edit-btn:hover, .submit-btn:hover {
+    background-color:rgba(245, 2, 123, 0.9);
+    box-shadow: 0 0 5px rgba(53, 53, 53, 0.5);
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    height: 50vh;
+    width: 80%;
+    padding: 10px;
+}
+
+.title-input {
+    min-width: 80%;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
